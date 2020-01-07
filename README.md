@@ -1,8 +1,6 @@
 START THE COURSE FROM FIREBASE
 
-## Lesson-8
-
-Starting our sign in section by creating a new sign in and sign up page, as well as start creating sign in component.
+## Starting our sign in section by creating a new sign in and sign up page, as well as start creating sign in component.
 
 # How to fork and clone
 
