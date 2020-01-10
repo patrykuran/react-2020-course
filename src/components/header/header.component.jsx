@@ -7,7 +7,7 @@ import {auth} from "../../firebase/firebase.utils";
 
 import {createStructuredSelector} from "reselect";
 
-import {HeaderContainer, LogoContainer, OptionDiv, OptionLink, OptionsContainer} from './header.styles';
+import {HeaderContainer, LogoContainer, OptionLink, OptionsContainer} from './header.styles';
 
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
@@ -27,9 +27,9 @@ const Header = ({currentUser, cart}) => (
         CONTACT
       </OptionLink>
       {currentUser ?
-        <OptionDiv onClick={() => {
+        <OptionLink as='div' onClick={() => {
           auth.signOut()
-        }}>SIGN OUT</OptionDiv>
+        }}>SIGN OUT</OptionLink>
         :
         <Link className='option' to='/signin'>SIGN IN</Link>
       }
