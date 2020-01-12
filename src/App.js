@@ -22,19 +22,18 @@ class App extends React.Component {
     const {setCurrentUser} = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-        if (userAuth) {
-          const userRef = await createUserProfileDocument(userAuth);
+          if (userAuth) {
+            const userRef = await createUserProfileDocument(userAuth);
 
-          userRef.onSnapshot(snapshot => {
-            setCurrentUser({
-              id: snapshot.id,
-              ...snapshot.data()
+            userRef.onSnapshot(snapshot => {
+              setCurrentUser({
+                id: snapshot.id,
+                ...snapshot.data()
+              })
             })
-          })
-        } else {
-          setCurrentUser(userAuth)
+          }
+          setCurrentUser(userAuth);
         }
-      }
     )
   }
 
@@ -44,23 +43,23 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Header/>
-        <Switch>
-          <Route exact path='/' component={HomePage}/>
-          <Route path='/shop' component={ShopPage}/>
-          <Route exact path='/checkout' component={CheckoutPage} />
-          <Route extact path='/signin' render={() =>
-            this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage/>)
-          }/>
-        </Switch>
-      </div>
+        <div>
+          <Header/>
+          <Switch>
+            <Route exact path='/' component={HomePage}/>
+            <Route path='/shop' component={ShopPage}/>
+            <Route exact path='/checkout' component={CheckoutPage}/>
+            <Route extact path='/signin' render={() =>
+                this.props.currentUser ? (<Redirect to='/'/>) : (<SignInAndSignUpPage/>)
+            }/>
+          </Switch>
+        </div>
     );
   }
 }
 
 const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 });
 
 const mapDispatchToProps = dispatch => ({
