@@ -7,4 +7,3 @@ const CustomButton = ({children, ...props}) => (
 );
 
 export default CustomButton;
-
