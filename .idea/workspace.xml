@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ece0ab16-ee86-4f3a-991e-cc2ad72f243b" name="Default Changelist" comment="separate project into client and backend parts">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581079450493</updated>
       <workItem from="1581079453134" duration="7196000" />
-      <workItem from="1581174905949" duration="3174000" />
+      <workItem from="1581174905949" duration="3225000" />
     </task>
     <task id="LOCAL-00001" summary="finish cart sagas">
       <created>1581085878963</created>
