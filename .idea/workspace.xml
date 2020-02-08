@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ece0ab16-ee86-4f3a-991e-cc2ad72f243b" name="Default Changelist" comment="separate project into client and backend parts">
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@cnakazawa/watch/test/d/d/t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/blob.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/credentials.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/database.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/field_path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/field_value.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/geo_point.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/observer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/timestamp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/api/user_data_converter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/auth/user.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/database_info.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/event_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/firestore_client.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/listen_sequence.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/query.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/snapshot_version.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/sync_engine.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/target_id_generator.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/transaction.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/version.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/view.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/core/view_snapshot.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/encoded_resource_path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/index_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_index_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_mutation_queue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_persistence.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_query_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_remote_document_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/indexeddb_schema.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/local_documents_view.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/local_serializer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/local_store.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/local_view_changes.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/lru_garbage_collector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/memory_index_manager.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/memory_mutation_queue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/memory_persistence.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/memory_query_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/memory_remote_document_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/mutation_queue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/persistence.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/persistence_promise.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/query_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/query_data.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/reference_set.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/remote_document_cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/remote_document_change_buffer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/shared_client_state.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/shared_client_state_syncer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/local/simple_db.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/collections.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/document.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/document_comparator.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/document_key.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/document_set.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/field_value.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/mutation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/mutation_batch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/path.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/model/transform_operation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform/config.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform/platform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_browser/browser_init.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_browser/browser_platform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_browser/webchannel_connection.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_node/grpc_connection.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_node/load_protos.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_node/node_init.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/platform_node/node_platform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/protos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/protos/firestore_proto_api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/protos/update.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/backoff.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/connection.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/datastore.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/existence_filter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/online_state_tracker.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/persistent_stream.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/remote_event.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/remote_store.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/remote_syncer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/rpc_error.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/serializer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/stream_bridge.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/remote/watch_change.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/array.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/assert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/async_observer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/async_queue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/error.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/input_validation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/log.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/misc.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/node_api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/obj.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/obj_map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/promise.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/sorted_map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/sorted_set.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/src/util/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/integration/bootstrap.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/integration/prime_backend.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/unit/bootstrap.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/api_helpers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/equality_matcher.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/helpers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/node_persistence.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/promise.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/dist/test/util/test_platform.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/firestore/node_modules/tslib/docs/generator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/functions/dist/src/api/error.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/functions/dist/src/api/service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/functions/dist/test/browser/callable.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/functions/node_modules/tslib/docs/generator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/installations/coverage/browser/HeadlessChrome 74.0.3729 (Linux 0.0.0)/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/controllers/base-controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/controllers/sw-controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/controllers/sw-types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/controllers/window-controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/helpers/array-buffer-to-base64.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/helpers/base64-to-array-buffer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/helpers/is-array-buffer-equal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/interfaces/message-payload.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/interfaces/token-details.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/interfaces/vapid-details.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/clean-v1-undefined.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/db-interface.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/default-sw.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/fcm-details.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/iid-model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/token-details-model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/vapid-details-model.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/src/models/worker-page-message.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/db-helper.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/detail-comparator.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/make-fake-app.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/make-fake-subscription.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/make-fake-sw-reg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/messaging-test-runner.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/dist/test/testing-utils/mock-fetch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/messaging/node_modules/tslib/docs/generator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/controllers/perf.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/controllers/perf.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/resources/network_request.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/resources/network_request.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/resources/trace.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/resources/trace.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/api_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/api_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/cc_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/cc_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/iid_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/iid_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/initialization_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/initialization_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/oob_resources_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/oob_resources_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/perf_logger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/perf_logger.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/remote_config_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/remote_config_service.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/services/settings_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/utils/attribute_utils.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/utils/attributes_utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/utils/console_logger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/dist/src/utils/errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/performance/node_modules/tslib/docs/generator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/an-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-buffer-view-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-copy-within.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-for-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-last-index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-method-has-species-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/bind-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/call-with-safe-iteration-closing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/check-correctness-of-iteration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/classof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/collection-add-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/collection-delete-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/collection-from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/collection-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/copy-constructor-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-is-regexp-logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-prototype-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/date-to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/define-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/document-create-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/dom-iterables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/forced-string-trim-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/freezing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/function-bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/function-to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/get-iterator-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/get-map-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/get-set-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/host-report-errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/inherit-if-required.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array-iterator-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/iterate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/math-expm1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/math-fround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/math-log1p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/math-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/math-sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/new-promise-capability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-assign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names-external.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-set-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/own-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/perform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/punycode-to-ascii.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/reflect-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/regexp-exec-abstract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/regexp-exec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/regexp-flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/set-species.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/sloppy-array-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/species-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-pad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-trim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/this-number-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-absolute-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/typed-array-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/user-agent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-set-prototype-of-arguments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/whitespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/array-last.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/collection-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/collection-of-from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/efficient-64-bit-arithmetic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/global-this.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/keys-composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/math-extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/math-signbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/number-from-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/pattern-matching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/promise-all-settled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/promise-any.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/promise-try.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/reflect-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/seeded-random.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/set-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/string-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/string-code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/string-match-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/string-replace-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@firebase/polyfill/node_modules/core-js/proposals/using-statement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/dist/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/dist/redux.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/es/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/es/redux.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/lib/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/applyMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/bindActionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/combineReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/createStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/@redux-saga/core/node_modules/redux/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/commandRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/compositeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/inputRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/landmarkRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/rangeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/roletypeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/sectionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/sectionheadRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/selectRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/structureRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/widgetRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/abstract/windowRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docAbstractRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docAcknowledgmentsRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docAfterwordRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docAppendixRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docBacklinkRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docBiblioentryRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docBibliographyRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docBibliorefRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docChapterRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docColophonRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docConclusionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docCoverRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docCreditRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docCreditsRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docDedicationRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docEndnoteRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docEndnotesRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docEpigraphRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docEpilogueRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docErrataRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docExampleRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docFootnoteRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docForewordRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docGlossaryRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docGlossrefRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docIndexRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docIntroductionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docNoterefRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docNoticeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPagebreakRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPagelistRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPartRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPrefaceRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPrologueRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docPullquoteRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docQnaRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docSubtitleRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docTipRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/dpub/docTocRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/alertRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/alertdialogRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/applicationRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/articleRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/bannerRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/buttonRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/cellRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/checkboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/columnheaderRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/comboboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/complementaryRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/contentinfoRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/definitionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/dialogRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/directoryRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/documentRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/feedRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/figureRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/formRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/gridRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/gridcellRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/groupRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/headingRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/imgRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/linkRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/listRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/listboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/listitemRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/logRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/mainRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/marqueeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/mathRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/menuRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/menubarRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/menuitemRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/menuitemcheckboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/menuitemradioRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/navigationRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/noneRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/noteRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/optionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/presentationRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/progressbarRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/radioRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/radiogroupRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/regionRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/rowRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/rowgroupRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/rowheaderRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/scrollbarRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/searchRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/searchboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/separatorRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/sliderRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/spinbuttonRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/statusRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/switchRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/tabRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/tableRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/tablistRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/tabpanelRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/termRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/textboxRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/timerRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/toolbarRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/tooltipRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/treeRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/treegridRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/aria-query/lib/etc/roles/literal/treeitemRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/understandable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/clean-css/lib/optimizer/level-2/properties/vendor-prefixes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/fast-glob/package/out/providers/filters/deep.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/fast-glob/package/out/providers/filters/deep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/fast-glob/package/out/providers/filters/entry.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/fast-glob/package/out/providers/filters/entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/code-gen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/printer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/compiler/whitespace-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/decorators/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/block-helper-missing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/helper-missing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/if.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/lookup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/amd/handlebars/helpers/with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/printer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/if.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/handlebars/dist/cjs/handlebars/helpers/with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/functions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/values.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/include/sass/version.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/b64/cencode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/b64/encode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/memory/SharedPtr.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/memory/SharedPtr.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/utf8/checked.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/utf8/core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/src/libsass/src/utf8/unchecked.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/cwd-include-path/root/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/include-path/functions/colorBlue.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/include-path/lib/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/input-directory/sass/_skipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/input-directory/sass/one.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/input-directory/sass/two.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/sass-path/orange/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/sass-path/red/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/watcher/main/one.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/watcher/main/three.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/watcher/main/two.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/node-sass/test/fixtures/watcher/sibling/three.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/selectors/className.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/selectors/combinator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/selectors/pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/selectors/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/selectors/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/util/ensureObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/util/getProp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/util/stripComments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/postcss-calc/node_modules/postcss-selector-parser/dist/util/unesc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/protobufjs/cli/node_modules/tmp/lib/tmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/blockAppendor/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/blockAppendor/_BlockAppendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/blockPrependor/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/blockPrependor/_BlockPrependor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/lineAppendor/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/lineAppendor/_LineAppendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/linePrependor/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/linePrependor/_LinePrependor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/lineWrapper/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/layout/block/lineWrapper/_LineWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/renderKid/styles/rule/DeclarationBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/renderKid/styles/rule/MixedDeclarationSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/lib/renderKid/styles/rule/Selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/node_modules/domutils/test/tests/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/node_modules/domutils/test/tests/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/renderkid/node_modules/domutils/test/tests/traversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/sass-loader/node_modules/shallow-clone/node_modules/kind-of/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/sass-loader/node_modules/shallow-clone/node_modules/kind-of/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/sass-loader/node_modules/shallow-clone/node_modules/kind-of/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/sass-loader/node_modules/shallow-clone/node_modules/kind-of/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/attribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/className.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/combinator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/constructors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/guards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/namespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/nesting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/stylehacks/node_modules/postcss-selector-parser/dist/selectors/universal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/has-value/node_modules/isobject/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/has-value/node_modules/isobject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/has-value/node_modules/isobject/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XToTCcXii4W3h9RDwQCeD0ATKT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ece0ab16-ee86-4f3a-991e-cc2ad72f243b" name="Default Changelist" comment="" />
+      <created>1581079450493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581079450493</updated>
+      <workItem from="1581079453134" duration="7196000" />
+      <workItem from="1581174905949" duration="2904000" />
+    </task>
+    <task id="LOCAL-00001" summary="finish cart sagas">
+      <created>1581085878963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581085878963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finish sign up sagas">
+      <created>1581088504424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088504424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="use hooks in signin signout components">
+      <created>1581107809599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581107809599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="use hooks in shop component">
+      <created>1581183309270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581183309270</updated>
+    </task>
+    <task id="LOCAL-00005" summary="separate project into client and backend parts">
+      <created>1581185165612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581185165612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish cart sagas" />
+    <MESSAGE value="finish sign up sagas" />
+    <MESSAGE value="use hooks in signin signout components" />
+    <MESSAGE value="use hooks in shop component" />
+    <MESSAGE value="separate project into client and backend parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="separate project into client and backend parts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="23" key="CommitChangelistDialog2" timestamp="1581185280705">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="147" y="23" key="CommitChangelistDialog2/0.23.1440.819@0.23.1440.819" timestamp="1581185280705" />
+    <state x="323" y="137" width="793" height="590" key="find.popup" timestamp="1581175198336">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="323" y="137" width="793" height="590" key="find.popup/0.23.1440.819@0.23.1440.819" timestamp="1581175198336" />
+    <state x="301" y="23" width="838" height="819" key="search.everywhere.popup" timestamp="1581175757052">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="301" y="23" width="838" height="819" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1581175757052" />
+  </component>
+</project>
